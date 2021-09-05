@@ -9,22 +9,19 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "TESTTESTTEST"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_label_2": ""
           }
         }
       },
-      "block_order": [
-        "heading",
-        "button"
-      ]
+      "block_order": ["heading", "button"]
     },
     "rich_text": {
       "type": "rich-text",
@@ -39,11 +36,7 @@
           "type": "button"
         }
       },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
+      "block_order": ["heading", "text", "button"]
     },
     "featured_products": {
       "type": "featured-collection",
@@ -60,17 +53,13 @@
           "type": "video"
         },
         "product": {
-            "type": "product"
+          "type": "product"
         },
         "collection": {
           "type": "collection"
         }
       },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
+      "block_order": ["video", "product", "collection"]
     },
     "video": {
       "type": "video"
@@ -88,11 +77,7 @@
           "type": "column"
         }
       },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ]
+      "block_order": ["column1", "column2", "column3"]
     }
   },
   "order": [
